@@ -1,0 +1,208 @@
+/* Style for the body element */
+body{
+    background-color: black; /* Set the background color to black */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for the navigation bar */
+.navBar{
+    background: linear-gradient(black, #1DB954); /* Gradient background from black to green */
+    width: 500px; /* Set the width of the nav bar */
+    position: sticky; /* Make the nav bar sticky */
+    margin: 0 auto; /* Center the nav bar */
+    top: 0; /* Position the nav bar at the top */
+    left: 0; /* Position the nav bar on the left */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-evenly; /* Distribute space evenly among items */
+    align-items: center; /* Align items to the center vertically */
+    border-radius: 25px; /* Round the corners */
+}
+
+/* Style for the navigation bar links */
+.navBarLink{
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for the navigation bar links */
+.navBarLink:hover{
+    color: #1DB954; /* Change text color to green */
+    text-decoration: underline; /* Add underline */
+}
+
+/* Style for the main section */
+.Main{
+    width: 95%; /* Set the width to 95% of the parent element */
+    max-width: 500px; /* Set the maximum width */
+    margin: 70px auto; /* Center and add top/bottom margin */
+
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items to the center vertically */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+/* Style for the images in the main section */
+.Main img{
+    border: 2px solid #1DB954; /* Add a green border */
+    box-shadow: 0 0 5px #1DB954, 0 0 25px #1DB954; /* Add green shadow */
+    height: auto; /* Maintain aspect ratio */
+    width: 50%; /* Set the width to 50% of the parent element */
+    border-radius: 5em; /* Round the corners */
+    transition: 0.5s ease; /* Smooth transition for hover effect */
+    margin-right: 30px; /* Add right margin */
+}
+
+/* Hover effect for the images in the main section */
+.Main img:hover{
+    cursor: pointer; /* Change cursor to pointer */
+    transform: scale(1.1); /* Scale the image */
+}
+
+/* Style for the About Me main section */
+.aboutMeMain{
+    border: 2px solid #1DB954; /* Add a green border */
+    box-shadow: 0 0 5px #1DB954, 0 0 25px #1DB954; /* Add green shadow */
+    height: auto; /* Maintain aspect ratio */
+    width: 95%; /* Set the width to 95% of the parent element */
+    max-width: 500px; /* Set the maximum width */
+    transition: 0.5s ease; /* Smooth transition for hover effect */
+    padding: 10px; /* Add padding */
+    margin: 20px auto; /* Center and add top/bottom margin */
+}
+
+/* Hover effect for the About Me main section */
+.aboutMeMain:hover{
+    cursor: pointer; /* Change cursor to pointer */
+    transform: scale(1.1); /* Scale the element */
+}
+
+/* Style for the About Me main section heading */
+.aboutMeMain h1{
+    color: whitesmoke; /* Set the text color to whitesmoke */
+    font-size: 44px; /* Set the font size */
+}
+
+/* Style for the text in the About Me section */
+#aboutText{
+    color: whitesmoke; /* Set the text color to whitesmoke */
+    font-size: 20px; /* Set the font size */
+}
+
+/* Style for the links in the About Me section */
+#aboutLink{
+    color: royalblue; /* Set the text color to royal blue */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Set the font size */
+}
+
+/* Hover effect for the links in the About Me section */
+#aboutLink:hover{
+    color: #1DB954; /* Change text color to green */
+    text-decoration: underline; /* Add underline */
+}
+
+/* Style for the main page project section */
+.mainPageProject{
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Align items to the center horizontally */
+    border: 2px solid #1DB954; /* Add a green border */
+    box-shadow: 0 0 5px #1DB954, 0 0 25px #1DB954; /* Add green shadow */
+    border-radius: 5em; /* Round the corners */
+    transition: 0.5s ease; /* Smooth transition for hover effect */
+    width: 90%; /* Set the width to 90% of the parent element */
+    max-width: 500px; /* Set the maximum width */
+    margin: 20px auto; /* Center and add top/bottom margin */
+}
+
+/* Hover effect for the main page project section */
+.mainPageProject:hover{
+    cursor: pointer; /* Change cursor to pointer */
+    transform: scale(1.1); /* Scale the element */
+}
+
+/* Style for the images in the main page project section */
+.mainPageProject img{
+    width: 80%; /* Set the width to 80% of the parent element */
+    max-width: 500px; /* Set the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Slightly round the corners */
+    padding-top: 20px; /* Add top padding */
+}
+
+/* Style for the text in the main page project section */
+.projectText{
+    color: whitesmoke; /* Set the text color to whitesmoke */
+    font-size: 20px; /* Set the font size */
+    text-align: center; /* Center the text */
+    margin: 10px 0; /* Add top/bottom margin */
+}
+
+/* Style for the links in the main page project section */
+#projectLink{
+    color: royalblue; /* Set the text color to royal blue */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Set the font size */
+}
+
+/* Hover effect for the links in the main page project section */
+#projectLink:hover{
+    color: #1DB954; /* Change text color to green */
+    text-decoration: underline; /* Add underline */
+}
+
+/* Style for the main page resume section */
+.mainPageResume{
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Align items to the center horizontally */
+    border: 2px solid #1DB954; /* Add a green border */
+    box-shadow: 0 0 5px #1DB954, 0 0 25px #1DB954; /* Add green shadow */
+    border-radius: 5em; /* Round the corners */
+    transition: 0.5s ease; /* Smooth transition for hover effect */
+    width: 90%; /* Set the width to 90% of the parent element */
+    max-width: 550px; /* Set the maximum width */
+    margin: 50px auto; /* Center and add top/bottom margin */
+}
+
+/* Hover effect for the main page resume section */
+.mainPageResume:hover{
+    cursor: pointer; /* Change cursor to pointer */
+    transform: scale(1.1); /* Scale the element */
+}
+
+/* Style for the images in the main page resume section */
+.mainPageResume img{
+    width: 70%; /* Set the width to 70% of the parent element */
+    max-width: 550px; /* Set the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Slightly round the corners */
+    padding-top: 20px; /* Add top padding */
+}
+
+/* Style for the text in the main page resume section */
+.resumeText{
+    color: whitesmoke; /* Set the text color to whitesmoke */
+    font-size: 20px; /* Set the font size */
+    text-align: center; /* Center the text */
+    margin: 10px 0; /* Add top/bottom margin */
+}
+
+/* Style for the links in the main page resume section */
+#resumeLink{
+    color: royalblue; /* Set the text color to royal blue */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Set the font size */
+}
+
+/* Hover effect for the links in the main page resume section */
+#resumeLink:hover{
+    color: #1DB954; /* Change text color to green */
+    text-decoration: underline; /* Add underline */
+}
+
+/* Style for the main contact section */
+.mainContact{
+    color: whitesmoke; /* Set the text color to whitesmoke */
+}

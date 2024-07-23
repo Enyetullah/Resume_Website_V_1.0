@@ -1,0 +1,99 @@
+/* General body styling */
+body{
+    background-color: black; /* Set background color of the page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styling for the navigation bar */
+.navBar{
+    background: linear-gradient(black, #1DB954); /* Gradient background from black to green */
+    width: 500px; /* Fixed width for the navbar */
+    position: sticky; /* Keeps navbar fixed at the top */
+    margin: 0 auto; /* Center horizontally */
+    top: 0; /* Stick to the top */
+    left: 0; /* Align to the left */
+    display: flex; /* Flexbox layout for child elements */
+    justify-content: space-evenly; /* Distribute space evenly between links */
+    align-items: center; /* Align items vertically */
+    border-radius: 25px; /* Rounded corners */
+}
+
+/* Styling for links in the navbar */
+.navBarLink{
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Hover effect for navbar links */
+.navBarLink:hover{
+    color: #1DB954; /* Change text color on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+/* Common styling for project sections */
+.gumnazoSec, .loginSec, .wordSec, .websiteSec{
+    display: flex; /* Flexbox layout for child elements */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally */
+    border: 2px solid #1DB954; /* Border with a green color */
+    box-shadow: 0 0 5px #1DB954, 0 0 25px #1DB954; /* Shadow effect in green */
+    border-radius: 5em; /* Rounded corners */
+    transition: 0.5s ease; /* Smooth transition for hover effects */
+    width: 90%; /* Width of the section */
+    max-width: 500px; /* Maximum width of the section */
+    margin: 40px auto; /* Center horizontally and add margin */
+}
+
+/* Hover effect for project sections */
+.gumnazoSec:hover, .loginSec:hover, .wordSec:hover, .websiteSec:hover{
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transform: scale(1.1); /* Scale up the section on hover */
+    border: 2px solid royalblue; /* Change border color on hover */
+    box-shadow: 0 0 5px royalblue, 0 0 25px royalblue; /* Change shadow color on hover */
+}
+
+/* Styling for images in project sections */
+.gumnazoSec img, .loginSec img, .wordSec img, .websiteSec img{
+    width: 80%; /* Set width of images to 80% of the parent */
+    max-width: 500px; /* Maximum width of images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+    padding-top: 20px; /* Add space above the image */
+}
+
+/* Styling for text in the Gumnazo section */
+.gumnazoText{
+    color: whitesmoke; /* White text color */
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center align text */
+    font-size: 20px; /* Font size */
+    margin: 10px auto; /* Center horizontally and add margin */
+}
+
+/* Styling for text in the Login section */
+.loginText{
+    color: whitesmoke; /* White text color */
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center align text */
+    font-size: 20px; /* Font size */
+    margin: 10px auto; /* Center horizontally and add margin */
+}
+
+/* Styling for text in the Word section */
+.wordText{
+    color: whitesmoke; /* White text color */
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center align text */
+    font-size: 20px; /* Font size */
+    margin: 10px auto; /* Center horizontally and add margin */
+}
+
+/* Styling for text in the Website section */
+.websiteText{
+    color: whitesmoke; /* White text color */
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center align text */
+    font-size: 20px; /* Font size */
+    margin: 10px auto; /* Center horizontally and add margin */
+}

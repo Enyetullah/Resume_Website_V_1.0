@@ -1,0 +1,62 @@
+body{
+    background-color: black; /* Set the background color to black */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.navBar{
+    background: linear-gradient(black, #1DB954); /* Set a gradient background from black to green */
+    width: 500px; /* Set a fixed width for the navigation bar */
+    position: sticky; /* Make the navigation bar stick to the top of the page */
+    margin: 0 auto; /* Center the navigation bar */
+    top: 0; /* Position it at the top of the page */
+    left: 0;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-evenly; /* Distribute space evenly between items */
+    align-items: center; /* Align items vertically in the center */
+    border-radius: 25px; /* Round the corners */
+}
+
+.navBarLink{
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.navBarLink:hover{
+    color: #1DB954; /* Change text color on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+.pic{
+    width: 70%; /* Set the width of the section to 70% */
+    height: auto; /* Let the height adjust automatically */
+    color: whitesmoke; /* Set text color to whitesmoke */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Distribute space evenly between items */
+    margin: 70px auto; /* Add vertical margin and center horizontally */
+}
+
+.pic h1{
+    width: 50%; /* Set the width of the heading to 50% */
+    padding: 30px; /* Add padding inside the heading */
+    font-size: 30px; /* Set the font size */
+    border-radius: 5em; /* Round the corners */
+    text-decoration: underline; /* Underline the text */
+    border: 2px solid #1DB954; /* Add a green border */
+    box-shadow: 0 0 5px #1DB954, 0 0 25px #1DB954; /* Add green shadow effects */
+}
+
+.pic img{
+    border: 2px solid #1DB954; /* Add a green border */
+    box-shadow: 0 0 5px #1DB954, 0 0 25px #1DB954; /* Add green shadow effects */
+    border-radius: 5em; /* Round the corners */
+    width: 60%; /* Set the width of the image to 60% */
+    margin: auto 50px; /* Add horizontal margin */
+}
+
+.mainContact{
+    color: whitesmoke; /* Set text color to whitesmoke */
+    padding: 10px; /* Add padding inside the section */
+    font-size: 20px; /* Set the font size */
+}

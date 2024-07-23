@@ -1,0 +1,50 @@
+body{
+    background-color: black; /* Set the background color of the entire page to black */
+    margin: 0; /* Remove the default margin from the body */
+    padding: 0; /* Remove the default padding from the body */
+}
+
+.navBar{
+    background: linear-gradient(black, #1DB954); /* Apply a linear gradient background to the navigation bar */
+    width: 500px; /* Set the width of the navigation bar */
+    position: sticky; /* Make the navigation bar sticky, so it stays at the top when scrolling */
+    margin: 0 auto; /* Center the navigation bar horizontally */
+    top: 0; /* Position the navigation bar at the top */
+    left: 0; /* Align the navigation bar to the left */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-evenly; /* Distribute space evenly between navigation links */
+    align-items: center; /* Align items in the center vertically */
+    border-radius: 25px; /* Round the corners of the navigation bar */
+}
+
+.navBarLink{
+    color: white; /* Set the text color of navigation links to white */
+    text-decoration: none; /* Remove the underline from navigation links */
+}
+
+.navBarLink:hover{
+    color: #1DB954; /* Change the text color to green on hover */
+    text-decoration: underline; /* Add underline to navigation links on hover */
+}
+
+video{
+    border: 2px solid #1DB954; /* Add a green border to the video element */
+    box-shadow: 0 0 5px #1DB954, 0 0 25px #1DB954; /* Add a green shadow effect to the video element */
+    height: auto; /* Automatically adjust the height of the video element */
+    width: 50%; /* Set the width of the video element */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center the video element vertically */
+    justify-content: center; /* Center the video element horizontally */
+    margin: 50px auto; /* Add margin to the top and bottom, and center the video horizontally */
+}
+
+.gumnazoText{
+    color: whitesmoke; /* Set the text color to whitesmoke */
+    padding: 20px; /* Add padding inside the section */
+    font-size: 25px; /* Set the font size */
+}
+
+#title{
+    font-size: 40px; /* Set the font size for the title */
+    font-weight: bold; /* Make the title bold */
+}
